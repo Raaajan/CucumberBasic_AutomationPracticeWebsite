@@ -11,7 +11,10 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		features = "D:\\Automation\\Eclipse\\AutomationParctice\\src\\test\\java\\features",
 		glue = "stepDefinition",
-		monochrome = true
+		monochrome = true,
+		publish=true,
+		plugin= {"pretty","html:target/cucumber/shopping.html"}
+		
 		
 		)
 
