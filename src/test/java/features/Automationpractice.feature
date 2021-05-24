@@ -16,16 +16,14 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
-
 Feature: Shopping on automation practice
   I want to use this template for my feature file
 
-  
-  Scenario: shopping on automationpractice  
+  Scenario: shopping on automationpractice
     Given I am automationpractice website
     And verify logo
     And check bestseller tab is enabled and click on it
-    And mouseover and click on addcart for any image
+    And mouseover and click on addcart for image at 2
     And verify popup msg for producht successfully added
     And verify continue shopping and checkout button enabled and click on proceed btn
     And verify page header as shopping cart summery
@@ -33,5 +31,3 @@ Feature: Shopping on automation practice
     And click on plus icon
     And verify your shopping cart contains "2" product
     And close browser
-
- 
